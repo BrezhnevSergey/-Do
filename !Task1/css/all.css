@@ -40,3 +40,90 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* General reset */
+img {
+    border-style: none;
+    display: block;
+}
+
+/* General settings */
+body {
+    font: 12px/15px arial, helvetica, sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+.wrapper {
+	width: 700px;
+	margin: 0 auto;
+}
+/*------START header styles--------*/
+header {
+    background-color: #2CA009;
+    padding: 37px 37px 34px;
+    overflow: hidden;
+}
+header a {
+    float: left;
+    width: 106px;
+    height: 79px;
+    text-indent: -9999px;
+    background: url("../img/logo.jpg") no-repeat;
+}
+/*------End header styles--------*/
+/*------START MAIN styles--------*/
+.main {
+    overflow: hidden;
+    background: url("../img/bg-content.jpg") repeat-y;
+    padding-bottom: 57px;
+}
+nav {
+    float: left;
+    width: 129px;
+    background-color: #e0d7d7;
+    padding: 29px 22px;
+}
+nav ul li {
+    margin-bottom: 11px;
+}
+ul li a {
+    text-decoration: none;
+}
+nav ul li a {
+    color: #001cc4;
+    font-size: 15px;
+    line-height: 19px;
+}
+nav ul li a.active, nav ul li a:hover, footer ul li a.active, footer ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    float: right;
+    width: 440px;
+    padding: 16px 37px 0px 50px;
+}
+section h1 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+    color: #999999;
+    margin-bottom: 35px;
+}
+section p {
+    margin-bottom: 14px;
+}
+section p strong {
+    text-decoration: underline;
+    font-weight: normal;
+}
+footer {
+    background: url("../img/bg-footer.jpg") repeat-x;
+    padding: 24px 0px 37px;
+    text-align: center;
+}
+footer ul li {
+    display: inline-block;
+}
+footer ul li a {
+    color: #000000;
+    margin: 0px 3px;
+}
