@@ -45,4 +45,48 @@ img {
 	border-style: none;
 	display: block;
 }
-
+/* */
+body {
+	color: black;
+	background-color: #ffffff;
+	font: 11px/14px verdana, Geneva, sans-serif;
+	min-width: 1100px;
+}
+.header_wrapper {
+	background: url("../img/header_bg.jpg") repeat-x #221b1b;
+}
+header {
+	width: 819px;
+	margin: 0 auto;
+	background-color: #727272;
+	overflow: hidden;
+	padding: 0px 32px 26px 53px;
+}
+.logo {
+	background-image: url("../img/logo.jpg");
+	text-indent: -99999px;
+	width: 154px;
+	height: 87px;
+	float: left;
+	margin-top: 37px;
+}
+header ul {
+	float: right;
+	margin-top: 19px;
+}
+header ul li {
+	 float: left;
+	background: url("../img/head_list_sep.jpg") 0 50% no-repeat;
+}
+header ul li:first-child {
+	background: none;
+}
+header ul li a {
+	color: #ffffff;
+	padding: 0px 11px 0px 10px;
+	text-decoration: none;
+	font-size: 12px;
+}
+header ul li a:hover {
+	text-decoration: underline;
+}
