@@ -90,3 +90,6 @@ header ul li a {
 header ul li a:hover {
 	text-decoration: underline;
 }
+.main_wrapper {
+	background: url("../img/bg_wrapper_main.jpeg") repeat-x #fff;
+}
