@@ -93,3 +93,77 @@ header ul li a:hover {
 .main_wrapper {
 	background: url("../img/bg_wrapper_main.jpeg") repeat-x #fff;
 }
+.main {
+	width: 904px;
+	margin: 0 auto;
+	background: url("../img/bg_main.jpg") repeat-x #fff;
+	overflow: hidden;
+}
+.left_side{
+	width: 225px;
+	float: left;
+	padding: 32px 20px 30px 25px;
+}
+.left_side h2 {
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: normal;
+	margin-bottom: 26px;
+}
+.left_side img {
+	float: left;
+	width: 86px;
+	height: 73px;
+	margin: 0px 15px 0px 0px;
+}
+.left_side article p {
+	margin: 0px 0px 4px 0px;
+	white-space: pre-wrap;
+}
+.left_side article {
+	margin-bottom: 35px;
+}
+.content nav {
+	padding: 12px 0px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.content {
+	float: right;
+	width: 566px;
+	padding: 0px 68px 0px 0px;
+}
+.content nav ul li {
+	display: inline-block;
+	margin: 0px 8px;
+}
+.content nav ul li a {
+	font-size: 27px;
+	line-height: 30px;
+	text-decoration: none;
+	color: #164b69:
+}
+.content nav ul li a:hover {
+	text-decoration: underline;
+}
+.content h1 {
+	font-size: 27px;
+	line-height: 30px;
+	color: #000000;
+	font-weight: normal;
+	margin-bottom: 25px;
+}
+.box {
+	margin: 0px 0px 106px 0px;
+}
+.box h2 {
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+.box p {
+	margin: 15px 0px 25px;
+	text-indent: 24px;
+}
