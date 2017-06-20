@@ -40,3 +40,193 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a {
+	text-decoration: none;
+}
+/*-------add fonts-----*/
+@font-face {
+	font-family: "Trebuchet MS";
+	src: url("../fonts/Trebuchet MS.ttf");
+}
+/*-------Main CSS------*/
+body {
+	font: 10px/12px Verdana, Geneva, sans-serif;
+	background: #ffffff;
+	min-width: 770px;
+}
+.wrapper {
+	width: 770px;
+	margin: 0 auto;
+	background: url("../img/bg-body.png") repeat-y 0 0;
+}
+.header {
+	background: url("../img/bg-header.png") no-repeat 0 0;
+	padding: 5px 0 0;
+	overflow: hidden;
+}
+.header .nav {
+	overflow: hidden;
+}
+.header .nav ul {
+	float: right;
+}
+.header .nav ul li {
+	float: right;
+	padding: 0 21px;
+}
+.header .nav ul li a {
+	font-weight: bold;
+	color: #003366;
+	text-decoration: none;
+}
+.header .nav ul li a:hover {
+	text-decoration: underline;
+}
+.header .logo {
+	font: 36px/40px "Trebuchet MS";
+	text-align: right;
+	margin: 79px 46px 0 0;
+}
+.header .logo strong {
+	font-weight: normal;
+}
+.header .logo a {
+ 	color: #fff;
+}
+.header .logo span {
+	font-weight: bold;
+}
+.header .sprites {
+	overflow: hidden;
+	margin: 46px 138px 40px 0px;
+}
+.header .sprites ul {
+	float: right;
+}
+.header .sprites ul li {
+	float: left;
+	padding: 0px 12px;
+}
+.header .sprites ul li a {
+	text-indent: -999999px;
+	width: 14px;
+	height: 11px;
+	display: inline-block;
+}
+.header .sprites ul li a.basket {
+	background: url("../img/sprites.png") no-repeat 0 0;
+}
+.header .sprites ul li a.basket:hover {
+	background: url("../img/sprites.png") no-repeat 0 -11px;
+}
+.header .sprites ul li a.mail {
+	background: url("../img/sprites.png") no-repeat -14px 0;
+}
+.header .sprites ul li a.mail:hover {
+	background: url("../img/sprites.png") no-repeat -14px -11px;
+}
+.header .sprites ul li a.home {
+	background: url("../img/sprites.png") no-repeat -28px 0;
+}
+.header .sprites ul li a.home:hover {
+	background: url("../img/sprites.png") no-repeat -28px -11px;
+}
+.header .sprites ul li a.search {
+	background: url("../img/sprites.png") no-repeat -42px 0;
+}
+.header .sprites ul li a.search:hover {
+	background: url("../img/sprites.png") no-repeat -42px -11px;
+}
+/*--------------Main---------------*/
+.content {
+	overflow: hidden;
+}
+/*------------sidebar--------------*/
+.sidebar {
+	float: left;
+	width: 200px;
+	position: relative;
+	padding: 29px 0px;
+}
+.sidebar ul li{
+	background: url("../img/bg-sidebar.png") repeat-y;
+	margin-bottom: 2px;
+	padding: 3px 24px 4px;
+}
+.sidebar ul li a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 16px;
+}
+.sidebar ul li a:hover, .sidebar ul li a.active {
+	color: #003366;
+	text-decoration: underline;
+}
+.sidebar ul li:last-child a {
+	text-decoration: underline;
+}
+.sidebar .absolute {
+	position: absolute;
+	top: 265px;
+	left: 24px;
+	width: 155px;
+}
+.sidebar .absolute h3 {
+	color: #fff;
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 10px;
+}
+.sidebar .absolute p {
+	color: #333333;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+.content {
+	overflow: hidden;
+}
+/*------------end sidebar--------------*/
+/*------------main--------------*/
+.main {
+	float: right;
+	width: 530px;
+	padding: 18px 23px 23px 17px;
+}
+.main .box {
+	overflow: hidden;
+	margin-bottom: 4px;
+}
+.main .box h2 {
+	color: #6699cc;
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 10px;
+}
+.main .box p {
+	margin-bottom: 11px;
+	text-align: justify;
+}
+.main .box a {
+	float: right;
+	font-weight: bold;
+	color: #6699cc;
+	text-decoration: underline;
+	margin-top: 3px;
+}
+.main .box a:hover {
+	color: #003366;
+}
+/*------------end main--------------*/
+/*------------end content --------------*/
+/*------------footer--------------*/
+.footer {
+	background: url("../img/bg-footer.png") no-repeat;
+	overflow: hidden;
+	padding: 32px 21px 3px 21px;
+}
+.footer span {
+	float: right;
+	font: 10px/14px Tahoma, Verdana, Segoe, sans-serif;
+	color: #fff;
+}
